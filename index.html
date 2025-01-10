@@ -10,10 +10,20 @@
       <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+    <!-- Sidebar toggle button -->
     <button class="sidebar-toggle">
         <i class="fas fa-bars"></i>
     </button>
-    <aside class="sidebar"></aside>
+    <!-- This is the body of the sidebar when opened -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="./logo.svg" class="logo" alt="sidebar-header"/>
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </aside>
+    
     <!-- JavaScript -->
      <script src="app.js"></script>
 </body>
